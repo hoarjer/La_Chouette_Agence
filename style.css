@@ -647,13 +647,15 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+p{
+    color: #000;
 }
 
 .container {
@@ -679,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -779,12 +781,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
