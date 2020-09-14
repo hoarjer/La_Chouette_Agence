@@ -533,8 +533,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -703,6 +704,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -824,6 +827,13 @@ h4 {
 
 .bg-presentation {
     background-image: url("https://res.cloudinary.com/dskkc5juc/image/upload/v1599583166/img%20la%20chouette%20agence/optimize%20img%20chouette%20agence/image-de-presentation_gtnoxq.jpg");
+}
+.row7{
+    display: flex;
+    flex-direction: column;
+}
+.col-form{
+    width: 70%;
 }
 
 @media (max-width: 1024px) {
@@ -1012,7 +1022,10 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 15px;
+    }
+    .col-form{
+        width: 100%;
     }
     .close-lightbox {
         display: inline-block;
